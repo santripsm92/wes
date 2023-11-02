@@ -1,0 +1,11 @@
+[Unit]
+Description=Limit IP Shadowsock By ALFVPN
+ProjectAfter=network.target
+
+[Service]
+WorkingDirectory=/root
+ExecStart=/etc/xray/limitip.shadowsocks
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
