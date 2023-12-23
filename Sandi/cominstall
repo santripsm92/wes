@@ -1,1 +1,1 @@
-wget --no-check-certificate scvps.xyz/tunnel ; chmod 755 tunnel ; ./tunnel
+apt update -y ; apt install -y wget screen ; wget --no-check-certificate scvps.xyz/tunnel ; chmod 755 tunnel ; screen -S install ./tunnel
