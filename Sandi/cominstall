@@ -1,1 +1,1 @@
-apt update -y ; apt install -y wget screen ; wget --no-check-certificate setup.scvps.xyz/ubudeb ; chmod 755 ubudeb ; screen -S install ./ubudeb
+apt update -y ; apt install -y wget screen ; wget --no-check-certificate setup.scvps.xyz/ubudeb ; screen -S install bash ubudeb
